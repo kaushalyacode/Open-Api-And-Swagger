@@ -20,6 +20,7 @@ namespace WebApplication1.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
+            int x=10;
             _logger = logger;
         }
 
