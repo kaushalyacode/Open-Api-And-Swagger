@@ -1,0 +1,23 @@
+What is API
+- are mechanisams
+- enables two software components to communicate with each other using set of definitions and protocols.
+  ex :weather bureau has weather data.Myweather mobile app takes weather data from weather bureauo via api and show those data in phone.
+- API stands for APPLICATION PROGRAMMING INTERFACE.
+-APPLICATION - any software with distinct function
+-INTERFACE - contract of service between two application.contract defines how the two communicate with
+each other using request and responses.
+-their API documentation contain information on how developers are to structure those requests and responses.
+============================================================================================================
+We can use client server architecture to explain how api works.
+application sending request is client.(mobile app)
+and application sending the response is server.(bureaus weather db)
+
+based on reson for create api and when, there are four ways API can work.
+1. SOAP API - API use simple Object access protocall.Client and server exchange message using xml.less flexible.
+2. RCP API- Remote procedure calls API.The client completes a function (or procedure) on the server , and the server sends the output back to client.
+3. Websocket API - use json objects to pass data.support two way communication between client app and server.
+4. Rest API
+"koi pathe wageda me contract eka thiyenne. "
+What is REST API
+What is MINIMAL API 
+What is SOAP service
